@@ -773,6 +773,7 @@ export function WalletVideoModal({
       }}
     >
       <DialogContent
+        fullScreen
         showCloseButton={false}
         className="video-modal"
         onEscapeKeyDown={(event) => busy && event.preventDefault()}
