@@ -306,4 +306,3 @@ function drawCallout(ctx: CanvasRenderingContext2D, t: number, scene: VideoScene
     fitText(ctx, value, x + 44 * u, R.y + 56 * u, cellW - 60 * u, 600, 28 * u, item.side === 'buy' ? C.brand : C.loss);
   });
 }
-
